@@ -6,8 +6,8 @@ body {
     flex: 1;
 }
 
-/* Header style */
-.header {
+/* Header (and footer) style */
+.header, .footer {
     background-color: #1F2935;
     display: flex;
     justify-content: space-between;
@@ -61,14 +61,17 @@ a {
     font-size: 16px;
 }
 
-.button1 {
+.button1, .button2 {
     background-color: #3882F6;
     border: 0;
-    border-radius: 10%;
+    border-radius: 5px;
     color: white;
+    font-size: 16px;
     font-weight: bold;
     padding: 5px;
+    min-width: 100px;
     width: 100px;
+    max-height: 30px;
 }
 
 .right {
@@ -135,5 +138,44 @@ img {
 
 /* Action style */
 .action {
-    
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.action-box {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 16px;
+    padding: 30px;
+    width: 500px;
+    min-width: 400px;
+}
+
+.content-title {
+    color: white;
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: left;
+}
+
+.content-text {
+    color: white;
+    font-size: 16px;
+    text-align: left;
+}
+
+.button2 {
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+}
+
+/* Footer style */
+.footer {
+    justify-content: center;
+    color: white;
 }
