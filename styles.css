@@ -1,0 +1,139 @@
+body {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+    flex: 1;
+}
+
+/* Header style */
+.header {
+    background-color: #1F2935;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.logo {
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.links {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    padding: 0;
+}
+
+a {
+    color: #E5E7EB;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+/* Intro style */
+.intro {
+    background-color: #1F2935;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.title {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
+    line-height: 0;
+}
+
+.text {
+    color: #F9FAF8;
+    font-size: 16px;
+}
+
+.button1 {
+    background-color: #3882F6;
+    border: 0;
+    border-radius: 10%;
+    color: white;
+    font-weight: bold;
+    padding: 5px;
+    width: 100px;
+}
+
+.right {
+    background-color: grey;
+    color: white;
+    padding: 10%;
+    width: 200px;
+    height: 30px;
+    flex-shrink: 0;
+}
+
+/* Container style */
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 15px;
+}
+
+.container-title {
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+.container-body {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    width: 100px;
+}
+
+/* Quote style */
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    padding: 15px;
+}
+
+.quote-text {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 200;
+}
+
+.quote-sign {
+    font-size: 24px;
+    font-weight: bolder;
+    text-align: right;
+}
+
+/* Action style */
+.action {
+    
+}
